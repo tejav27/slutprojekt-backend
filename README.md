@@ -1,12 +1,15 @@
 ![poster](./poster.png)
 # slutprojekt-backend
 Inge Bra Bygg AB
-## Project setup
-```
-npm install
-```
+- This is a backend project developed as a part of backend course.
+- The project is developed in Node.js using Express framework and used Sqlite database using Sequelize.
+- The project followed MVC model and used JWT tokens 
+- We have encrypted the passwords using bcrypt and enabled RBAC for few endpoints.
+- We used web sockets to enable notifications in case of a new message.
+- There are custom error messages in case of incorrect input.
 
 ### EndPoints
+Below are the developed end points, few of them are protected and needs to be authorized to get them.
 
 | End Point | Method | Details | Request Body | Query
 | ------ | ------ | ------ | ------ | ------ |
